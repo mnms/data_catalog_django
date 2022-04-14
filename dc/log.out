@@ -1,0 +1,155 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+Internal Server Error: /data_catalog/list/
+Traceback (most recent call last):
+  File "/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nvkvs/metavision/api-server/dc/datacatalog/views.py", line 22, in datacatalog_list
+    result = result + ' ' + content
+TypeError: must be str, not dict
+[14/Apr/2022 07:50:42] "GET /data_catalog/list/ HTTP/1.1" 500 78153
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 07:50:31
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+Internal Server Error: /data_catalog/list/
+Traceback (most recent call last):
+  File "/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nvkvs/metavision/api-server/dc/datacatalog/views.py", line 23, in datacatalog_list
+    result = result + ' ' + json.dumps(content)
+  File "/usr/lib64/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib64/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib64/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib64/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'datetime' is not JSON serializable
+[14/Apr/2022 07:56:45] "GET /data_catalog/list/ HTTP/1.1" 500 98857
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 07:56:40
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:01:04] "GET /data_catalog/list/ HTTP/1.1" 200 1748132
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:01:44] "GET /data_catalog/list/ HTTP/1.1" 200 1748133
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 08:01:00
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:03:29] "GET /data_catalog/list/ HTTP/1.1" 200 1752635
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:03:57] "GET /data_catalog/list/ HTTP/1.1" 200 1752634
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:04:17] "GET /data_catalog/list/ HTTP/1.1" 200 1752635
+[14/Apr/2022 08:04:17,809] - Broken pipe from ('192.168.201.25', 47820)
+
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 08:03:24
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:08:36] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:09:02] "GET /data_catalog/list/ HTTP/1.1" 200 1752634
+[14/Apr/2022 08:09:02,700] - Broken pipe from ('192.168.201.25', 47836)
+
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:09:20] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:13:34] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:13:36] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 08:08:05
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:26:15] "GET /data_catalog/list/ HTTP/1.1" 200 1752634
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:27:05] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:27:19] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:27:45] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:27:51] "GET /data_catalog/list/ HTTP/1.1" 200 1752633
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 08:25:51
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/api-server/dc/datacatalog/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 14, 2022 - 08:29:02
+Django version 3.2.13, using settings 'dc.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:52:08] "GET /data_catalog/list/ HTTP/1.1" 200 1743654
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:52:26] "GET /data_catalog/list/ HTTP/1.1" 200 1743654
+/home/nvkvs/metavision/venv-python3/lib64/python3.6/site-packages/urllib3/connectionpool.py:1050: InsecureRequestWarning: Unverified HTTPS request is being made to host 'minio.k8s.lightningdb'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning,
+[14/Apr/2022 08:52:40] "GET /data_catalog/list/ HTTP/1.1" 200 1743654
