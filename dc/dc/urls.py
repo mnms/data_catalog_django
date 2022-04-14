@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from datacatalog.views import datacatalog_list
+from datacatalog.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('data_catalog/list/', datacatalog_list),
+    path('data_catalog/list_es/', datacatalog_list_es),
 ]
