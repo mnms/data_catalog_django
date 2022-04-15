@@ -1,5 +1,29 @@
 # data_catalog_django
 
+## Install
+```
+// python3
+python3 -m venv venv-python3
+source venv-python3/bin/activate
+
+// python django server
+django-admin startproject dc   // project start
+python manage.py migrate  // sqlite3 사용
+nohup python manage.py runserver 0.0.0.0:8000 > log.out 2>&1 &  // runserver
+tail -f log.out
+
+python manage.py startapp datacatalog     // app start
+
+// modified
+/dc/dc/settings.py
+/dc/dc/urls.py
+/dc/datacatalog/views.py
+
+```
+
+
+## How to use
+
 ### file list-up
 
 ```
