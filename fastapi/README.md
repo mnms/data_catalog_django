@@ -6,19 +6,16 @@
 python3 -m venv venv-python3
 source venv-python3/bin/activate
 
-// python django server
-django-admin startproject dc   // project start
-python manage.py migrate  // sqlite3 사용
-nohup python manage.py runserver 0.0.0.0:8000 > log.out 2>&1 &  // runserver
-tail -f log.out
+// python fastapi server
+pip install fastapi
+pip install uvicorn[standard]
+nohup uvicorn main:app --reload --host=0.0.0.0 --port=8000 > log.out 2>&1 &
 
-python manage.py startapp datacatalog     // app start
+```
 
-// modified
-/dc/dc/settings.py
-/dc/dc/urls.py
-/dc/datacatalog/views.py
-
+## Docs page
+```
+http://{hostname}:8000/docs
 ```
 
 
