@@ -24,6 +24,35 @@ python manage.py startapp datacatalog     // app start
 
 ## How to use
 
+### bucket list-up
+
+```
+curl -X GET "http://{hostname}:8000/data_catalog/list/buckets/"
+```
+
+
+```
+
+curl -X GET "http://fbg04:8000/data_catalog/list/buckets/" | jq .
+[
+  {
+    "Name": "ai-hub"
+  },
+  {
+    "Name": "data"
+  },
+  {
+    "Name": "hynix"
+  },
+  {
+    "Name": "testbucket"
+  },
+  {
+    "Name": "welcome"
+  }
+]
+```
+
 ### file list-up
 
 ```
