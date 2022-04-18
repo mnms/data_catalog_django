@@ -14,6 +14,19 @@ AWS_BUCKET_PREFIX = ''
 ENDPOINT_URL = 'https://minio.k8s.lightningdb:443'
 
 
+
+def datacatalog_list_existing_buckets(request):
+    s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY, endpoint_url=ENDPOINT_URL, verify=False)
+    bucket_list = s3.list_buckets()
+    result='['
+    for bucket in bucket_list['Buckets']:
+        if len(result) > 1:
+            result = result + ','
+        result = result + ' {"Name":"' +  bucket["Name"] + '"}'
+    result = result + ']'
+    return HttpResponse(result)
+
+
 def datacatalog_list_bucket(request, bucket):
     s3 = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY_ID, aws_secret_access_key=AWS_SECRET_ACCESS_KEY, endpoint_url=ENDPOINT_URL, verify=False)
     obj_list = s3.list_objects(Bucket=bucket)
